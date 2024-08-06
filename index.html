@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -21,12 +21,13 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg border-secondary text-bg-dark mb-3 border-bottom" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg border-bottom mb-3 border-secondary text-bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"> <img src="/logo.svg" alt="Logo"> </a>
+            <a class="navbar-brand"> <img src="/logo_light.svg" alt="Logo" id="logo"> </a>
             <div class="navbar-collapse navbar-nav" id="navbarNavAltMarkup">
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                 <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                <button class="btn btn-sm btn-outline-secondary" type="button" id="theme"> Light Mode </button>
             </div>
         </div>
     </nav>
@@ -37,30 +38,30 @@
     <div class="row row-cols-1 row-cols-md-2 g-4" style="margin: auto">
 
         <div class="col">
-          <div class="card border-secondary text-bg-dark mb-3">
+          <div class="card mb-3 border-secondary text-bg-dark">
                 <div class="card-body">
-                    <h5 class="card-header text-center text-bg-dark" style="color: white">hi, i'm arifur khan.</h5>
-                    <p class="card-text" style="color: white"> stuff about me & journey on coding </p>
-                    <p class="card-text" style="color: white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in mi leo. Nam eget faucibus orci, at finibus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae maximus mi, quis malesuada nisi. Fusce posuere pellentesque eros, sit amet pretium risus lobortis vel. Aliquam dapibus ligula a libero posuere Lorem ipsum dolor sit amet, </p>
+                    <h5 class="card-header text-center text-bg-dark">hi, i'm arifur khan.</h5>
+                    <p class="card-text"> stuff about me & journey on coding </p>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in mi leo. Nam eget faucibus orci, at finibus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae maximus mi, quis malesuada nisi. Fusce posuere pellentesque eros, sit amet pretium risus lobortis vel. Aliquam dapibus ligula a libero posuere Lorem ipsum dolor sit amet, </p>
                 </div>
             </div>
         </div>   
 
         <div class="col">
-            <div class="card border-secondary text-bg-dark mb-3">
+            <div class="card mb-3 border-secondary text-bg-dark">
                 <div class="card-body">
-                    <h5 class="card-header text-center text-bg-dark" style="color: white"> my goals </h5>
-                    <p class="card-text" style="color: white"> goals and stuff i want to accomplish </p>
-                    <p class="card-text" style="color: white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in mi leo. Nam eget faucibus orci, at finibus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae maximus mi, quis malesuada nisi. Fusce posuere pellentesque eros, sit amet pretium risus lobortis vel. Aliquam dapibus ligula a libero posuere Lorem ipsum dolor sit amet, </p>
+                    <h5 class="card-header text-center text-bg-dark"> my goals </h5>
+                    <p class="card-text"> goals and stuff i want to accomplish </p>
+                    <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in mi leo. Nam eget faucibus orci, at finibus diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae maximus mi, quis malesuada nisi. Fusce posuere pellentesque eros, sit amet pretium risus lobortis vel. Aliquam dapibus ligula a libero posuere Lorem ipsum dolor sit amet, </p>
                 </div>
             </div>
         </div>
 
         <div class="col">
-            <div class="card border-secondary text-bg-dark mb-3">
+            <div class="card mb-3 border-secondary text-bg-dark">
                 <div class="card-body">
-                    <h5 class="card-header text-center text-bg-dark" style="color: white"> contact me </h5>
-                    <p class="card-text" style="color: white"> filler filler filler filler filler filler </p>
+                    <h5 class="card-header text-center text-bg-dark"> contact me </h5>
+                    <p class="card-text"> filler filler filler filler filler filler </p>
                 </div>
             </div>
         </div>
@@ -70,5 +71,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
